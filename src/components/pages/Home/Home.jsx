@@ -2,6 +2,8 @@ import S from './Home.module.css'
 
 export const Home = () => {
     return (
-        <h2 className={S.titulo}>Oi</h2>
+        <div className={S.home}>
+            <h2>Formulário de cadastro de clientes com visualização de base</h2>
+        </div>
     )
 }
