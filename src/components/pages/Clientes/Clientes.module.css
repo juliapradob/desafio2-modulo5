@@ -1,0 +1,36 @@
+.clientes {
+    padding-left: 35%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 35%;
+    padding-top: 32px;
+}
+
+.clientes h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.clientes input, label {
+    margin: 4px 0px;
+}
+
+.clientes button {
+    margin-top: 12px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: 2px solid #566036;
+    background-color: white;
+    color: #566036;
+    padding: 8px 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.clientes button:hover {
+    border: 2px solid #566036;
+    background-color: #566036;
+    color: white;
+}
+

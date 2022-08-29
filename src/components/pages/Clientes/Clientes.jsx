@@ -1,4 +1,4 @@
-import Tabela from '../Tabela'
+import Tabela from '../../Tabela'
 import S from './Clientes.module.css'
 import { useState } from 'react'
 
@@ -8,7 +8,7 @@ export const Clientes = () => {
 
     return(
         <div className={S.clientes}>
-            <h1>Clientes</h1>
+            <h2>Clientes</h2>
             <button onClick={() => {
                 setTabela([1])
             }}>Armando Rose</button>

@@ -1,6 +1,6 @@
 import { Menu } from './components/Menu'
-import { Formulario1 } from './components/pages/Formulario1'
-import { Clientes } from './components/pages/Clientes'
+import { Formulario1 } from './components/pages/Formulario/Formulario1'
+import { Clientes } from './components/pages/Clientes/Clientes'
 import { Home } from './components/pages/Home/Home'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 

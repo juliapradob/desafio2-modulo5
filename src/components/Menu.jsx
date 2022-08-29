@@ -1,7 +1,4 @@
 import { Link } from 'react-router-dom'
-import { Clientes } from './pages/Clientes'
-import { Formulario1 } from './pages/Formulario1'
-import { Home } from './pages/Home/Home'
 import reset from './reset.css'
 import S from './Menu.module.css'
 

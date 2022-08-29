@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import S from './Formulario.module.css'
 
 export const Formulario1 = () => {
     const [ info, setInfo ] = useState({
@@ -9,7 +10,8 @@ export const Formulario1 = () => {
     })
 
     return(
-        <form>
+        <form className={S.formulario}>
+            <h2>Cadastre-se!</h2>
             <label htmlFor='nome'>Nome:</label>
             <input type='text' name='nome'/>
             
@@ -22,7 +24,7 @@ export const Formulario1 = () => {
             <label htmlFor='telefone'>Telefone:</label>
             <input type='tel' name='telefone'/>
 
-            <input type='submit' value='Próximo'/>
+            <button type='submit' id='etapa1'>Próximo</button>
         </form>
     )
 }

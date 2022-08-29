@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import S from './Formulario.module.css'
 
 export const Formulario3 = () => {
     const [ info, setInfo ] = useState({
@@ -8,7 +9,7 @@ export const Formulario3 = () => {
     })
 
     return(
-        <form>
+        <form className={S.formulario}>
             <label htmlFor='dataNasc' name='Data de nascimento:'/>
             <input type='date' name='dataNasc'/>
             
@@ -18,7 +19,7 @@ export const Formulario3 = () => {
             <label htmlFor='renda' name='Renda mensal:'/>
             <input type='text' name='renda'/>
 
-            <input type='submit' value='Salvar'/>
+            <button type='submit' id='etapa3'>Cadastrar</button>
         </form>
     )
 }
