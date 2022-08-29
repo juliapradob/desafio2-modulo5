@@ -1,3 +1,12 @@
-.titulo {
+.home {
     padding-left: 35%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 35%;
+    padding-top: 32px;
+}
+
+.home h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
 }
